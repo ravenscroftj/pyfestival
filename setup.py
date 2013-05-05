@@ -8,7 +8,7 @@ from setuptools import setup, Extension
 
 
 festival_module = Extension('_festival',
-                           sources=['festival.i','festival.cpp'], 
+                           sources=['festival.i'], 
                            swig_opts=['-c++'],
                            include_dirs=['/usr/include/festival'],
                            libraries=['Festival', 'estools',
