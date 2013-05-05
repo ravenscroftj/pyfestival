@@ -1,0 +1,11 @@
+--- speech_tools/siod/slib.cc   2013-05-04 17:01:15.243965314 +0100
++++ speech_tools/siod/slib.cc 	2013-05-04 17:01:04.690720652 +0100
+@@ -128,7 +128,7 @@
+ long interrupt_differed = 0;
+ LISP oblistvar = NIL;
+ LISP current_env = NIL;
++static LISP backtrace = NIL;
+-LISP backtrace = NIL;
+ LISP restricted = NIL;
+ LISP truth = NIL;
+ LISP eof_val = NIL;
