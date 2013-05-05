@@ -33,6 +33,6 @@ int festival_load_file(const EST_String &filename);
 //evaluate a command given as an expression
 int festival_eval_command(const EST_String &expr);
 
-%rename(text_to_wave) festival_text_to_wave;
+//%rename(text_to_wave) festival_text_to_wave;
 //turn given text into a wave file
-int festival_text_to_wave(const EST_String &text,EST_Wave &wave);
+//int festival_text_to_wave(const EST_String &text,EST_Wave &wave);
