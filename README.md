@@ -23,16 +23,16 @@ To get Festival to play nicely with Python:
 2. Extract the speech tools package and apply the patch provided in this
    repository to the top level directory.
     
-    $ tar xfvz speech_tools-2.1-release.tar.gz
-    $ patch -Np0 -i pyfestival/libestools.patch
-    $ cd speech-tools
-    $ ./configure && make && sudo make install
+     $ tar xfvz speech_tools-2.1-release.tar.gz
+     $ patch -Np0 -i pyfestival/libestools.patch
+     $ cd speech-tools
+     $ ./configure && make && sudo make install
 
 3. Extract and build festival itself
 
-    $ tar xfvz festival-2.1-release.tar.gz
-    $ cd festival
-    $ ./configure && make && sudo make install
+     $ tar xfvz festival-2.1-release.tar.gz
+     $ cd festival
+     $ ./configure && make && sudo make install
 
 4. You should now be able to build and install pyfestival
 
